@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:url(IPLimages/homepage.jpg);
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: left;
+}
+video{
+	position: absolute;
+	left: 65%;
+	top: 5%;
+	float: right;
+	margin-top: 30px;
+
+}
+/*div{
+	background: linear-gradient(#0082e6,blue,indigo);
+	height: 50px;
+	width: 100%;
+}*/
+
+ul{
+	position: absolute;
+	left: 10%;
+	top: 0.00%;
+	float: left;
+	list-style-type: none;
+	margin-top: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 20px;
+	border: 3px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #000080 ;
+	color: #fff;
+}
+ul li.active a{
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 20px;
+	border: 3px solid #fff;
+}
+ul li.active a:hover{
+	background-color: #000080 ;
+	color: #fff;
+	border: 3px solid #000080;
+}
+.main{
+	max-width: 600px;
+	max-height: 500px;
+	margin: auto;
+}
+.title h1{
+	font: Script MT Bold;
+	color: #f5f5f5;
+}
+.title h2{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 70px;
+}

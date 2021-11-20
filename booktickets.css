@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+    background-image:url(book_tickets.jpg);
+}
+header{
+	
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+	background-position: left;
+}
+
+ul{
+	position: absolute;
+	left: 10%;
+	top: 0%;
+	float: left;
+	list-style-type: none;
+	margin-top: 30px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 20px;
+	border: 3px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000080;
+}
+ul li.active a{
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 20px;
+	border: 3px solid #fff;
+}
+ul li.active a:hover{
+	background-color: #fff;
+	color: #000080;
+	border: 3px solid #000080;
+}
+.container.main{
+	max-width: 600px;
+	max-height: 500px;
+	margin: auto;
+}
+.title h1{
+	font: Script MT Bold;
+	color: #f5f5f5;
+	position: absolute;
+	top: 10%;
+  	left: 10%;
+}
+/* .each-slide div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	height: 350px;
+	padding: 350px;
+} */
+/* .each-slide span{
+	padding: 20px;
+	font-size: 20px;
+	background: #efefef;
+	text-align: center;
+} */
+/* section {
+    background-size: cover;
+    color: rgb(247, 240, 240);
+    background-color: var(--bg, --color-black);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}*/
+/* section.image {
+    background-position: center center;
+    /*transform: translateZ(-1px) scale(1.5);*/
+    /* Force the background image to fill the whole element. */
+    /* width: 300;
+    height: 300; */
+    /* background-size: cover; */
+    /* Keep the image from overlapping sibling elements. */
+    /* z-index: -1;
+    height: 120vh;
+} */ 
+/* section.text {
+    height: 50vh;
+} */
+/* section.heading {
+    z-index: -1;
+    transform: translateY(-30vh) translateZ(1px) scale(1.5);
+} */
+.main{
+	max-width: 600px;
+	max-height: 500px;
+	margin: auto;
+}
+.title h1{
+	font: Script MT Bold;
+	color: #f5f5f5;
+}
+.title h2{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 70px;
+}
