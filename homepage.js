@@ -4,7 +4,7 @@ import Homepagevid from "./trailer.mp4";
 import { Link } from 'react-router-dom';
 function Homepage()
 {
-	// var video = document.getElementById('iplvideo').playbackRate = 2.0;
+	//  var video = document.getElementById('iplvideo').playbackRate = 2.0;
   return(<><header>
 		<div className ="main">
 			<ul>
